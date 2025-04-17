@@ -1,29 +1,24 @@
-# simple-task-manager-vuejs-test-assignment
+# Менеджер задач на VueJS (тестовое задание)
 
-This template should help get you started developing with Vue 3 in Vite.
+## Запуск проекта
 
-## Recommended IDE Setup
+### Загрузите репозиторий проекта
+```sh
+git clone ссылка_на_данный_репозиторий
+```
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Перейдите в каталог проекта
+```
+cd simple-task-manager-vuejs-test-assignment
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+### Установите необходимые модули для NodeJS
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Запустите проект в режиме разработки
 
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
