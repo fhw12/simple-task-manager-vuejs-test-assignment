@@ -17,6 +17,10 @@
           </label>
         </div>
     </div>
+    <div v-else>
+      <h2>У вас нет задач.<br>Загрузите *.json файл с задачами:</h2>
+      <input class="task-loader-button" type="file" accept=".json" @change="loadTasksFromFile">
+    </div>
   </main>
 </template>
 
